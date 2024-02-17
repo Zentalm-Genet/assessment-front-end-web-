@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Neighborhood</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<style>
+    ul li a{
+        text-decoration: none;
+        color: #0056b3;
+        font-size: 18px;
+    }
+
+    #randomRestaurantBtn{
+        padding: 20px 40px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        font-size: 18px;
+        background-color: rgba(137, 43, 226, 0.154);
+        color: #333;
+        border-radius: 10px;
+    }
+
+    #randomRestaurantBtn:hover{
+        background-color: #333;
+        color: #fff;
+    }
+
+    h1, h2{
+        color: #0056b3;
+    }
+
+</style>
+<body>
+
+    <nav>
+		<ol>
+	        <li class="crumb"><a href="./home.html">Home</a></li>
+	        <li class="crumb"><a href="./profile.html">Profile</a></li>
+	        <li class="crumb"><a href="./about.html">About</a></li>
+			<li class="crumb"><a href="neighborhood.html">Neighborhood</a></li>
+	    </ol>
+	</nav>
+
+    <h1>My Neighborhood</h1>
+    <h3>Welcome to my neighborhood Las Colinas!</h3>
+    <p> Las Colinas a wonderful place filled with diverse attractions. <br>
+        It's, just a short drive from downtown Dallas and Fort Worth, is easily accessible via the DART Orange Line, connecting the area to major points throughout the region. <br> <br> Whether for business or leisure, plan your visit to this vibrant and accessible urban oasis today.
+        <br>
+        It is around 12 minutes or 7 miles from Dallas/Ft.Worth Airport (DFW).
+    </p>
+    <h2>Explore Our Neighborhood</h2>
+
+    <ul>
+        <li><a href="https://www.northitalia.com/locations/dallas-tx-uptown/">Local Restaurants</a></li>
+        <li><a href="https://www.dallasparks.org/218/Dallas-Zoo">Parks</a></li>
+        <li><a href="https://www.greenhill.org/">high school</a></li>
+        <li><a href="https://www.utdallas.edu/">university</a></li>
+        <li><a href="https://www.tcu.edu/">colleges</a></li>
+    </ul>
+
+     <!-- Button for restaurant recommendation -->
+     <button id="randomRestaurantBtn">Get Random Restaurant </button>
+
+     <script src="neighborhood.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homepage</title>
+	<link href="styles.css" rel="stylesheet">
+
+</head>
+<body>
+	<nav>
+		<ol>
+	        <li class="crumb"><a href="./home.html">Home</a></li>
+	        <li class="crumb"><a href="./profile.html">Profile</a></li>
+	        <li class="crumb"><a href="./about.html">About</a></li>
+			<li class="crumb"><a href="neighborhood.html">Neighborhood</a></li>
+	    </ol>
+	</nav>
+
+	<content>
+		<p>Hello World</p>
+
+		<img src="images/rubber-duck.jpg" id = "image" style="border-radius: 50%;">
+		<section>
+            <h2>About Us</h2>
+            <p>Welcome to our website! We're excited to have you here and explore what we have to offer.</p>
+            
+            <p>We strive to provide the best services and information to our visitors. Whether you're here for learning, fun, or information, we hope you find what you're looking for.</p>
+        </section>
+		<h3>Bulleted list of compliments</h3>
+		<ul>
+			<li>HTML</li>
+			<li>CSS</li>
+			<li>JAVASCRIPYT</li>
+		</ul>
+		<h2>Contact Us</h2>
+		<form id="contact">
+			Your name:
+			<input type="text">
+
+			Message:
+			<input type="textarea">
+
+			<h3>How did you hear about us?</h3>
+			<input type="checkbox" id="google" name="how-heard" value="Google">
+                <label for="google">Google</label><br>
+                <input type="checkbox" id="friend" name="how-heard" value="A friend">
+                <label for="friend">A friend</label><br>
+				<input type="checkbox" id = "social-media">
+				<label for="social-media">Social Media</label> <br>
+                <input type="checkbox" id="other" name="how-heard" value="Other">
+                <label for="other">Other</label><br><br>
+			<input type="submit">
+		</form>
+	</content>
+
+
+	<script src="about.js"></script>
+</body>
+</html>
